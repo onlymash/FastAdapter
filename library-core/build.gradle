@@ -28,9 +28,9 @@ android {
 }
 
 dependencies {
-    implementation  "com.android.support:appcompat-v7:${versions.supportLib}"
-    implementation  "com.android.support:recyclerview-v7:${versions.supportLib}"
-    implementation  "com.android.support:support-annotations:${versions.supportLib}"
+    api "androidx.appcompat:appcompat:${versions.androidx}"
+    api "androidx.recyclerview:recyclerview:${versions.androidx}"
+    api "androidx.annotation:annotation:${versions.androidx}"
     compileOnly "com.google.code.findbugs:jsr305:3.0.2"
 }
 
